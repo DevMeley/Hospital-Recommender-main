@@ -1,0 +1,5 @@
+build:
+    type: python
+    python_version: "3.11"
+    commands:
+      - pip install --only-binary=:all: -r requirements.txt
